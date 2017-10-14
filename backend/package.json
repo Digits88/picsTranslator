@@ -1,0 +1,11 @@
+{
+  "name": "pictureTranslate",
+  "description": "Translate text to pictures",
+  "version": "1.0.0",
+  "main": "main.js",
+  "dependencies": {
+    "express": "^4.16.2",
+    "google-translate-api": "^2.3.0",
+    "the-noun-project": "^2.0.1"
+  }
+}
