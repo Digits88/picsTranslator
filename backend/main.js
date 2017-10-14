@@ -9,8 +9,8 @@ const translate = require('google-translate-api');
 // initialize the noun project
 var NounProject = require('the-noun-project'),
     nounProject = new NounProject({
-        key: '4c1e778c37bc49bd84d2da9431b762a4',
-        secret: '72bc79d025c34ac1838529a78bf8a5b1'
+        key: 'XXXXXXXXXXXXXXXXXXXXX',
+        secret: 'XXXXXXXXXXXXXXXXXXXXX'
     });
 
 

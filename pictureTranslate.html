@@ -2,11 +2,11 @@
 <title>Bildübersetzer</title>
 <link rel="stylesheet" href="style.css">
 
-<form action="http://172.20.10.2:8080/api/iconText/" target="translation">
-    <h1>Bildübersetzer</h1>
-    <textarea name="text"></textarea> 
-    <input type="text" name="lang">
-    <input type="submit" value="translation!">
-    <p>Just enter any text in the Textbox above and you will get a picture translation :).</p>
+<form action="http://localhost:8080/api/iconText/" target="translation">
+    <h1>Bildübersetzer:)</h1>
+    <textarea name="text" placeholder="word or text to translate"></textarea> 
+    <input type="text" name="lang" placeholder="language code">
+    <input type="submit" value="translate">
+    <p>Just enter any <strong>text</strong> in the Textbox above and you will get <strong>a picture translation</strong> :).</p>
     <iframe name="translation"></iframe>
 </form>
